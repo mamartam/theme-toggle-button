@@ -25,5 +25,6 @@ While the project is fully functional, there are several ways to enhance it furt
 
 - Performance Optimization: Some CSS properties could be refactored using CSS Variables (Custom Properties) for colors and transition timings. This would make the code more DRY (Don't Repeat Yourself) and easier to maintain.
 - Advanced Animations: Adding a subtle "floating" animation to the clouds using @keyframes would give the toggle a more "alive" and dynamic feel even when it's not being clicked.
-
-
+- 
+## 🍿 Video
+https://github.com/user-attachments/assets/1114c688-5a72-47c3-be5b-9bcb4bde0b08
