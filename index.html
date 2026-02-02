@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/images/day-and-night.png"
+    />
+    <title>Theme Toggle Button</title>
+  </head>
+  <body>
+    <input type="checkbox" id="theme-toggle-button" class="input" />
+    <label for="theme-toggle-button" class="label">
+      <div class="circle">
+        <img class="moon-sun-img" src="" alt="Sun and Moon images" />
+      </div>
+      <div class="light-mode">
+        <div class="sun"></div>
+        <div class="clouds-first-layer">
+          <div class="lm-cloud1 lm"></div>
+          <div class="lm-cloud2 lm"></div>
+        </div>
+        <div class="clouds-second-layer">
+          <div class="lm-cloud3 lm"></div>
+          <div class="lm-cloud4 lm"></div>
+        </div>
+      </div>
+      <div class="dark-mode">
+        <div class="clouds-first-layer">
+          <div class="dm-cloud1 dm"></div>
+          <div class="dm-cloud2 dm"></div>
+        </div>
+        <div class="clouds-second-layer">
+          <div class="dm-cloud3 dm"></div>
+          <div class="dm-cloud4 dm"></div>
+        </div>
+      </div>
+    </label>
+    <script defer src="js/main.js"></script>
+  </body>
+</html>
